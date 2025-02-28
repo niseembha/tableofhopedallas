@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.contact-container {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #DCCFBC;
+  text-align: center;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.success-message {
+  display: inline;
+}
+
+.allbutFooter {
+  flex: 1;
+}
+
+h2 {
+  margin-top: 2em;
+  font-size: 2em;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1 h2 {
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+}
+
+.contact-hero {
+  background-color: #DCCFBC;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.contact-hero h1 {
+  font-size: 2.5rem;
+}
+
+.contact-form {
+  margin-top: -50px;
+  padding: 20px;
+  background-color: #DCCFBC;
+}
+
+.contact-form h2 {
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+label {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+input, textarea {
+  width: 30%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+textarea {
+  height: 200px;
+  resize: none;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #B88F67;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Added transition for hover color */
+}
+
+button:disabled {
+  background-color: #ddd;
+}
+
+button:hover {
+  background-color: #e7b583;
+}
+
+.social-icons-contact {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.social-icons-contact a {
+  font-size: 3rem;
+  color: #B88F67;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease; /* Added transition for hover color */
+  margin-bottom: 1em;
+}
+
+.social-icons-contact a:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.footer {
+  height: 100%;
+  margin-top: auto;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.allbutFooter {
+  flex-grow: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-hero h1 {
+    font-size: 2rem;
+  }
+
+  form {
+    width: 90%;  /* Make form more fluid for smaller screens */
+  }
+
+  input, textarea {
+    width: 90%;
+  }
+
+  .social-icons-contact {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    padding: 20px;
+  }
+
+  .contact-hero h1 {
+    font-size: 1.5rem;
+  }
+
+  form {
+    width: 100%;  /* Full width on very small screens */
+  }
+
+  .social-icons-contact {
+    gap: 10px;
+  }
+
+  h1, h2 {
+    font-size: 1.25rem;
+  }
+}

@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.about-container {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #DCCFBC;
+  text-align: center;
+  min-height: 100vh; 
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.allbutFooter {
+  flex: 1;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: 400;
+}
+
+h1 h2{
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+}
+
+.about-hero {
+  background-color: #DCCFBC;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.about-hero h1 {
+  font-size: 2.5rem;
+}
+
+.about-founders {
+  margin-top: -50px;
+  padding: 20px;
+  background-color: #DCCFBC;
+}
+
+.founders {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.about-founders h2 {
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.founder-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+}
+
+.founder-card img {
+  width: 10em;
+  height: 10em;
+  border-radius: 8px;
+}
+
+.founder-card h3 {
+  margin-top: 15px;
+  font-size: 1.5rem;
+}
+
+.founder-card h4 {
+  margin-top: 15px;
+  font-size: 1.25rem;
+}
+
+.founder-card p {
+  font-size: 1rem;
+  color: #666;
+  font-family: 'Merriweather', sans-serif;
+}
+
+.about-mission p {
+  font-size: 1rem;
+  color: #666;
+  font-family: 'Merriweather', sans-serif;
+}
+
+h2 {
+  color: white;
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+}
+
+.meetText {
+  margin-top: -10px;
+}
+
+.missionStatement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.missionStatementhead {
+  margin-top: 1em;
+}
+
+.about-mission {
+  margin-bottom: 20px;
+  margin-top: -10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-hero h1 {
+      font-size: 2rem;
+  }
+
+  .about-mission {
+      width: 90%;  /* Make it more fluid for smaller screens */
+      padding: 20px;
+  }
+
+  .founder-card {
+      width: 200px;
+  }
+
+  .about-founders {
+      padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container {
+      padding: 20px;
+  }
+
+  .about-hero h1 {
+      font-size: 1.5rem;
+  }
+
+  .about-mission {
+      width: 100%;  /* Full width on very small screens */
+      padding: 15px;
+  }
+
+  .founder-card {
+      width: 150px;
+  }
+
+  h1, h2 {
+      font-size: 1.25rem;
+  }
+}
+
+
+.footer {
+  height: 100%;
+  margin-top: auto;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures it takes at least the full screen */
+}
+
+.allbutFooter {
+  flex-grow: 1; /* Pushes the footer down */
+}
+
+.atenText {
+  margin-bottom: 10px;
+}
+
+
+
+
