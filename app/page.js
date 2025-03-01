@@ -2,6 +2,7 @@
 
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
+import Head from 'next/head';
 
 
 
@@ -9,6 +10,7 @@ export default function Home() {
 
   return (
     <div>
+      <title>Hope Through Food</title>
       <style>
         @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
       </style>

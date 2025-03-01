@@ -8,6 +8,7 @@ export default function About() {
   return (
 
     <div className="about-container">
+      <title>Hope Through Food</title>
       <div className='allbutFooter'>
         <Navbar />
 

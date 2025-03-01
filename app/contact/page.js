@@ -70,6 +70,7 @@ function ContactForm() {
 function Contact() {
   return (
     <div className='contact-container'>
+      <title>Hope Through Food</title>
       <div className='allbutFooter'>
         <h1>CONTACT</h1>
         <Navbar />
