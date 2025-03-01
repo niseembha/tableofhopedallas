@@ -23,9 +23,9 @@ export default function Footer() {
           <a href="https://www.instagram.com/tableofhope.dtx/" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faInstagram} />
           </a>
-          <a href="https://www.tiktok.com/@tableofhopedallas" aria-label="TikTok" target="_blank" rel="noopener noreferrer">
+          {/* <a href="https://www.tiktok.com/@tableofhopedallas" aria-label="TikTok" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faTiktok} />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
