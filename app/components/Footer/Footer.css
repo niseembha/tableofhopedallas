@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 .footer {
   background-color: #B88F67;
   color: white;
@@ -51,12 +50,57 @@
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
+  .footer {
+    padding: 30px 15px; /* Adjust padding for mobile */
+  }
+
+  .footer h3 {
+    font-size: 1.5rem; /* Smaller heading on mobile */
+    margin-bottom: 10px;
+  }
+
+  .footer p {
+    font-size: 0.9rem; /* Smaller text for mobile */
+    margin-bottom: 8px;
+  }
+
   .col-2 {
-    padding: 0 10px;
+    padding: 0 10px; /* Reduce padding for smaller screens */
   }
 
   .social-icons {
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: row; /* Keep the icons in a horizontal row */
+    justify-content: center; /* Keep the icons centered */
+    gap: 15px; /* Adjust the gap between icons */
+  }
+
+  .social-icons a {
+    font-size: 1.3rem; /* Slightly smaller icons for mobile */
+  }
+}
+
+/* Additional Responsiveness for Very Small Screens (Phones) */
+@media (max-width: 480px) {
+  .footer {
+    padding: 20px 10px; /* Adjust padding for very small screens */
+  }
+
+  .footer h3 {
+    font-size: 1.3rem; /* Even smaller heading */
+    margin-bottom: 10px;
+  }
+
+  .footer p {
+    font-size: 0.8rem; /* Even smaller text for phones */
+    margin-bottom: 8px;
+  }
+
+  .social-icons {
+    flex-direction: row; /* Keep the icons in a row */
+    gap: 10px; /* Smaller gap between icons */
+  }
+
+  .social-icons a {
+    font-size: 1.1rem; /* Even smaller icons */
   }
 }
