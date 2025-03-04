@@ -79,9 +79,9 @@ function Contact() {
          {/* Social Media Icons */}
          <h2>Social Medias:</h2>
           <div className="social-icons-contact">
-            <a href="#" aria-label="Facebook">
+            {/* <a href="#" aria-label="Facebook">
               <FontAwesomeIcon icon={faFacebook}/>
-            </a>
+            </a> */}
             <a href="https://www.instagram.com/tableofhope.dtx/" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
