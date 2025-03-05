@@ -69,5 +69,13 @@ a {
   all: unset;
 }
 
+@media (max-width: 480px) {
+  p {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
 
 

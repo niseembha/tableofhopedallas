@@ -137,48 +137,6 @@ h2 {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
-  .about-hero h1 {
-      font-size: 2rem;
-  }
-
-  .about-mission {
-      width: 90%;  /* Make it more fluid for smaller screens */
-      padding: 20px;
-  }
-
-  .founder-card {
-      width: 200px;
-  }
-
-  .about-founders {
-      padding: 0 10px;
-  }
-}
-
-@media (max-width: 480px) {
-  .about-container {
-      padding: 20px;
-  }
-
-  .about-hero h1 {
-      font-size: 1.5rem;
-  }
-
-  .about-mission {
-      width: 100%;  /* Full width on very small screens */
-      padding: 15px;
-  }
-
-  .founder-card {
-      width: 150px;
-  }
-
-  h1, h2 {
-      font-size: 1.25rem;
-  }
-}
-
 
 .footer {
   height: 100%;
