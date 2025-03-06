@@ -26,7 +26,8 @@ h1 h2{
 .about-hero {
   background-color: #DCCFBC;
   color: white;
-  padding: 60px 20px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   text-align: center;
   display: flex;
   flex-direction: column;
