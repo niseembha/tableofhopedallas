@@ -104,3 +104,16 @@
     font-size: 1.1rem; /* Even smaller icons */
   }
 }
+
+.tax-exempt-link {
+  color: rgb(233, 233, 233);
+  font-weight: 100;
+  text-decoration: underline;
+  font-size: 0.7rem;
+  transition: color 0.3s ease;
+}
+
+.tax-exempt-link:hover {
+  color: #FFD700; /* Gold color on hover */
+}
+
