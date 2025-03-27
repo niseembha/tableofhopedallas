@@ -37,6 +37,17 @@ p {
   font-weight: 400;
 }
 
+.meals-served {
+  font-family: "Work Sans", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #F8F8F8;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+
 .zeffy-btn {
   font-family: "Work Sans", serif;
   font-weight: bold;
