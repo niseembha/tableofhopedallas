@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Work+Sans:wght@100..900&display=swap');
+
+.impact-container {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #DCCFBC;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.allbutFooter {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.impact-hero {
+  display: inline;
+  background-color: #DCCFBC;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: -40px;
+}
+
+.impact-hero h1 {
+  font-size: 2.5rem;
+}
+
+.impact-hero-small-text {
+  flex-wrap: nowrap;
+  font-size: 1.3em;
+  position: relative;
+  align-self: center;
+}
+
+.impact-gallery {
+  padding: 20px;
+  background-color: #DCCFBC;
+}
+
+.impact-gallery h2 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.media-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.media-item {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.media-item img, .media-item video {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.media-item p {
+  font-size: 1rem;
+  color: #666;
+  font-family: 'Merriweather', sans-serif;
+  margin-top: 10px;
+}
+
+.footer {
+  height: 100%;
+  margin-top: auto;
+}
