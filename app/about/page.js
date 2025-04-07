@@ -14,7 +14,9 @@ export default function About() {
 
         {/* Hero Section */}
         <div className="about-hero">
-          <h1>About Table of Hope Dallas</h1>
+          <h1>
+            About Table of Hope Dallas
+            </h1>
         </div>
 
         {/* Founders Section */}
@@ -22,16 +24,41 @@ export default function About() {
           <h2 className='meetText'>Meet the Founders</h2>
           <div className="founders">
             <div className="founder-card">
-              <img src="/images/atenpfp.png" alt="Aten Biswas" />
+              <img src="/images/pfps/atenpfp.png" alt="Aten Biswas" />
               <h3>Aten Biswas</h3>
               <p>Hey everyone, I'm Aten! I'm a sophomore at Shepton High School and I enjoy playing basketball and golf. I have a deep passion for cooking and helping others, so I started Table of Hope with my friend. We can't wait to see the difference you help us make!</p>
             </div>
             <div className="founder-card">
-              <img src="/images/niseempfp.png" alt="Niseem Bhattacharya"/>
+              <img src="/images/pfps/niseempfp.png" alt="Niseem Bhattacharya"/>
               <h4>Niseem Bhattacharya</h4>
               <p>Hi, I’m Niseem! I'm a sophomore at Greenhill School and some of my interests are playing video games, coding, and basketball with my friends. My friend and I started this nonprofit because we love cooking and wanted to use that passion to help others!</p>
             </div>
           </div>
+        </div>
+
+        <div className='about-headofdistribution'>
+          <h2 className='meetText'>Head of Distribution</h2>
+            <div className="founders">
+              <div className="founder-card">
+                <img src="/images/pfps/masonpfp.png" alt="Mason Copeland" />
+                <h3>Mason Copeland</h3>
+              </div>
+            </div>
+        </div>
+
+
+        <div className='about-directorofcommunityrelations'>
+          <h2 className='meetText'>
+            Director of 
+            <br />
+            Community Relations
+          </h2>
+            <div className="founders">
+              <div className="founder-card">
+                <img src="/images/pfps/nirvanpfp.png" alt="Nirvan Bhattacharya" />
+                <h3>Nirvan Bhattacharya</h3>
+              </div>
+            </div>
         </div>
 
         {/* Mission Statement */}

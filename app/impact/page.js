@@ -13,7 +13,11 @@ export default function Impact() {
         {/* Hero Section */}
         <div className="impact-hero">
           <h1>Table of Hope in Action</h1>
-          <p className='impact-hero-small-text'>See the difference we’ve made through our efforts and community outreach.</p>
+          <p className='impact-hero-small-text'>
+            See the difference we’ve made through
+            <br /> 
+            our efforts and community outreach.
+            </p>
         </div>
 
         {/* Media Gallery */}
@@ -25,7 +29,7 @@ export default function Impact() {
               <p>Serving warm meals to those in need.</p>
             </div>
             <div className="media-item">
-              <img src="/images/image2.JPG" alt="Volunteers cooking" />
+              <img src="/images/image2.JPG" alt="Aten cooking" />
               <p>Cooking and preparing fresh food.</p>
             </div>
             <div className="media-item">
@@ -34,6 +38,24 @@ export default function Impact() {
                 Your browser does not support the video tag.
               </video>
               <p>A glimpse into last week's food drive.</p>
+            </div>
+            <div className="media-item">
+              <img src="/images/image3.png" alt="Handing out meals" />
+              <p>Distributing meals with care and connection.</p>
+            </div>
+            <div className="media-item">
+              <video autoPlay loop muted>
+                <source src="/videos/video2.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <p>Showing love with a treat for a furry friend in need.</p>
+            </div>
+            <div className="media-item">
+              <video autoPlay loop muted>
+                <source src="/videos/video3.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <p>Caring for our four-legged neighbors, one treat at a time.</p>
             </div>
           </div>
         </div>

@@ -4,13 +4,14 @@
   font-family: 'Work Sans', sans-serif;
   background-color: #DCCFBC;
   text-align: center;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
 .allbutFooter {
+  overflow-x: hidden;
   width: 100%;
   flex: 1;
   display: flex;
@@ -29,6 +30,7 @@
   justify-content: center;
   width: 100%;
   margin-bottom: -40px;
+  margin-left: -20px;
 }
 
 .impact-hero h1 {
@@ -86,3 +88,28 @@
   height: 100%;
   margin-top: auto;
 }
+
+@media (max-width: 400px) {
+  .impact-hero h1{
+    font-size: 1.6rem;
+  }
+
+  .impact-hero p{
+    font-size: 1rem;
+  }
+
+  .impact-gallery h2{
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 360px) {
+    .impact-hero h1{
+      font-size: 1.4rem;
+    }
+
+    .impact-hero p{
+      font-size: 0.9rem;
+    }
+}
+

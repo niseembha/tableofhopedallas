@@ -88,8 +88,22 @@ a {
   p {
     font-size: 1rem;
   }
-  h1 {
+  .welcomeText {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .welcomeText {
+    font-size: 1.5rem;
+  }
+
+  .smallerMainText {
+    font-size: 0.9rem;
+  }
+
+  .meals-served {
+    font-size: 1.3rem;
   }
 }
 

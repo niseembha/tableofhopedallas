@@ -157,3 +157,13 @@ html, body {
     width: 60%;
   }
 }
+
+@media (max-width: 360px) {
+  .allbutFooter h1 {
+    font-size: 3rem;
+  }
+
+  .allbutFooter h2 {
+    font-size: 1.5rem;
+  }
+}

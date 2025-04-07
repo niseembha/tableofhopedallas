@@ -39,11 +39,24 @@ h1 h2{
   font-size: 2.5rem;
 }
 
-.about-founders {
+
+
+.about-founders, .about-headofdistribution .about-directorofcommunityrelations{
   margin-top: -50px;
   padding: 20px;
   background-color: #DCCFBC;
 }
+
+
+.about-headofdistribution {
+  margin-top: 20px;
+}
+
+
+.about-directorofcommunityrelations {
+  margin-top: 40px;
+}
+
 
 .founders {
   display: flex;
@@ -163,6 +176,55 @@ html, body {
 .atenText {
   margin-bottom: 10px;
 }
+
+@media (max-width: 400px) {
+  .about-hero h1{
+    font-size: 1.3rem;
+  }
+
+  .meetText {
+    font-size: 1.5rem;
+  }
+
+  .founder-card h3{
+    font-size: 1.5rem;
+  }
+
+  .founder-card p{
+    font-size: 0.9rem;
+  }
+
+  .founder-card{
+    width: 225px;
+  }
+
+  .missionStatementhead{
+    font-size: 2rem;
+  }
+
+  .about-mission p{
+    font-size: 0.9rem;
+  }
+
+  .about-mission {
+    width: 250px;
+  }
+}
+
+@media (max-width: 360px) {
+  .about-mission {
+    width: 220px;
+  }
+
+  .about-mission p{
+    font-size: 0.8rem;
+  }
+
+  .about-hero h1{
+    font-size: 1.15rem;
+  }
+}
+
 
 
 

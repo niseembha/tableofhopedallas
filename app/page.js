@@ -14,7 +14,7 @@ export default function Home() {
       </style>
       <Navbar />
       <section>
-        <h1>Welcome to Table of Hope Dallas</h1>
+        <h1 className='welcomeText'>Welcome to Table of Hope Dallas</h1>
         <p className='smallerMainText'>
           We're here to make a difference in our community.
         </p>
