@@ -37,7 +37,7 @@ export default function Impact() {
                 <source src="/videos/video1.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
-              <p>A glimpse into last week's food drive.</p>
+              <p>A glimpse into March 29's Food Drive.</p>
             </div>
             <div className="media-item">
               <img src="/images/image3.png" alt="Handing out meals" />
