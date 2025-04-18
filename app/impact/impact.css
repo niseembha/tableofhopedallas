@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Work+Sans:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Work+Sans:wght@100..900&display=swap");
 
 .impact-container {
-  font-family: 'Work Sans', sans-serif;
-  background-color: #DCCFBC;
+  font-family: "Work Sans", sans-serif;
+  background-color: #dccfbc;
   text-align: center;
   min-height: 10vh;
   display: flex;
@@ -20,7 +20,7 @@
 
 .impact-hero {
   display: inline;
-  background-color: #DCCFBC;
+  background-color: #dccfbc;
   color: white;
   padding: 20px;
   text-align: center;
@@ -44,15 +44,25 @@
   align-self: center;
 }
 
-.impact-gallery {
+.impact-gallery1 {
   padding: 20px;
-  background-color: #DCCFBC;
+  background-color: #dccfbc;
 }
 
-.impact-gallery h2 {
-  font-size: 2rem;
+.impact-gallery1 h2 {
+  font-size: 2.5rem;
   color: white;
-  margin-bottom: 20px;
+}
+
+.impact-gallery2 {
+  margin-top: -20px;
+  padding: 20px;
+  background-color: #dccfbc;
+}
+
+.impact-gallery2 h2 {
+  font-size: 2.5rem;
+  color: white;
 }
 
 .media-grid {
@@ -72,7 +82,8 @@
   text-align: center;
 }
 
-.media-item img, .media-item video {
+.media-item img,
+.media-item video {
   width: 100%;
   border-radius: 8px;
 }
@@ -80,7 +91,7 @@
 .media-item p {
   font-size: 1rem;
   color: #666;
-  font-family: 'Merriweather', sans-serif;
+  font-family: "Merriweather", sans-serif;
   margin-top: 10px;
 }
 
@@ -90,26 +101,25 @@
 }
 
 @media (max-width: 400px) {
-  .impact-hero h1{
+  .impact-hero h1 {
     font-size: 1.6rem;
   }
 
-  .impact-hero p{
+  .impact-hero p {
     font-size: 1rem;
   }
 
-  .impact-gallery h2{
+  .impact-gallery h2 {
     font-size: 1.5rem;
   }
 }
 
 @media (max-width: 360px) {
-    .impact-hero h1{
-      font-size: 1.4rem;
-    }
+  .impact-hero h1 {
+    font-size: 1.4rem;
+  }
 
-    .impact-hero p{
-      font-size: 0.9rem;
-    }
+  .impact-hero p {
+    font-size: 0.9rem;
+  }
 }
-

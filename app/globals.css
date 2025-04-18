@@ -1,9 +1,8 @@
 /* global styles to include FontAwesome */
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
-
 body {
-  background-image: url('./assets/tableofhopeimage.png');
+  background-image: url("./assets/tableofhopeimage.png");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -45,12 +44,11 @@ p {
   font-family: "Work Sans", serif;
   font-size: 2rem;
   font-weight: bold;
-  color: #F8F8F8;
+  color: #f8f8f8;
   background: rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
   border-radius: 10px;
 }
-
 
 .zeffy-btn {
   font-family: "Work Sans", serif;
@@ -60,7 +58,7 @@ p {
   border-radius: 12px;
   border: none;
   font-size: large;
-  background-color: #26170A;
+  background-color: #d66c38;
   color: white;
   transition: background-color 0.2s ease-in-out;
 }
@@ -75,8 +73,8 @@ p {
   margin-top: 25px;
 }
 
-.zeffy-btn:hover{
-  background-color: #633c1a;
+.zeffy-btn:hover {
+  background-color: rgb(255, 168, 92);
   cursor: pointer;
 }
 
@@ -106,5 +104,3 @@ a {
     font-size: 1.3rem;
   }
 }
-
-
