@@ -1,51 +1,125 @@
+html {
+  scroll-padding-top: 80px; /* adjust to match navbar height */
+}
+
 .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 60px; /* Fixed height */
-    background-color: rgba(184, 143, 103, 0.95);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-    transition: none; /* Prevents unwanted animations */
+  margin: 0 auto;
+  position: fixed;
+  top: 2rem;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 66px;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+
+  border-radius: 50px;
+  background: #f8f8f8;
 }
 
 .nav-links {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 5vw;
+  list-style-type: none;
 }
 
 .nav-link {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-family: "Merriweather", serif;
-    padding: 10px 15px;
+  all: unset;
+  color: #26170a;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  transition: color 0.3s ease;
 }
 
 .nav-link:hover {
-    color: #f5deb3; /* Lighter color on hover */
-    cursor: pointer;
+  cursor: pointer;
+  color: #895425;
 }
 
-/* Prevent content from being hidden behind the navbar */
-body {
-    padding-top: 60px; /* Matches navbar height */
+.logo {
+  height: auto;
+  transition: transform 0.5s ease;
 }
 
-@media (max-width: 400px) {
-    .nav-link {
-        font-size: 0.9rem;
-    }
+.logo:hover {
+  transform: scale(1.05);
 }
 
-@media (max-width: 360px) {
-    .nav-link {
-        font-size: 0.75rem;
-    }
+.donateButton {
+  align-self: center;
+  align-items: center;
+  align-content: center;
+
+  display: flex;
+  width: 6vw;
+  height: 2vw;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+
+  border-radius: 30px;
+  background: #d66c38;
+  position: absolute;
+  right: 2rem;
+
+  transition: background 0.3s ease;
+}
+
+.donateButton p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 0.8vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.donateButton:hover {
+  cursor: pointer;
+  background: #f47b3e;
+}
+
+@media (max-width: 900px) {
+
+  .navbar {
+    height: 6.5vw;
+  }
+  
+  .nav-link {
+    font-size: 1.5vw;
+  }
+
+  .logo {
+  width: 3vw;
+  height: auto;
+  }
+
+}
+
+@media (max-width: 700px) {
+
+  .navbar {
+    justify-content: flex-start;
+  }
+
+  .nav-links {
+    margin-left: 10vw;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .nav-links {
+    margin-left: 6vw;
+  }
 }

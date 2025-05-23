@@ -1,25 +1,51 @@
-import './Navbar.css';
-import Link from 'next/link';
+"use client";
 
-const Navbar = () => {
+import "./Navbar.css";
+
+const Navbar = ({ scrollToImpact, scrollToHome, scrollToAbout, scrollToContact }) => {
   return (
     <nav className="navbar">
       <ul className="nav-links">
         <li>
-          <Link href="/" className="nav-link">Home</Link>
+          <button className="nav-link" onClick={scrollToHome}>
+            Home
+          </button>
         </li>
         <li>
-          <Link href="/impact" className='nav-link'>Impact</Link>
+          <button className="nav-link" onClick={scrollToImpact}>
+            Impact
+          </button>
+        </li>
+        <img
+          src="/images/logo.png"
+          alt="Table of Hope Logo"
+          className="logo"
+          width={48}
+          height={48}
+        />
+        <li>
+          <button className="nav-link" onClick={scrollToAbout}>
+            About
+          </button>
         </li>
         <li>
-          <Link href="/about" className="nav-link">About</Link>
-        </li>
-        <li>
-          <Link href="/contact" className="nav-link">Contact</Link>
+          <button className="nav-link" onClick={scrollToContact}>
+            Contact
+          </button>
         </li>
       </ul>
+      <div className="donateButton">
+        <a
+          href="https://www.zeffy.com/en-US/fundraising/support-fresh-meals-for-the-homeless?fbclid=PAZXh0bgNhZW0CMTEAAabfSUh6MM6c2ovxab_l8f-nOHoG-FQkObxfwfIF06uvCDbpzxItoMZagjs_aem_ON2DJ8V0kWVKsizGFbs54A"
+          className="navbarDonateButton"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p>Donate</p>
+        </a>
+      </div>
     </nav>
   );
-}
+};
 
 export default Navbar;

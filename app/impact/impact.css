@@ -1,85 +1,124 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Work+Sans:wght@100..900&display=swap");
-
 .impact-container {
-  font-family: "Work Sans", sans-serif;
-  background-color: #dccfbc;
-  text-align: center;
-  min-height: 10vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.allbutFooter {
-  overflow-x: hidden;
-  width: 100%;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-.impact-hero {
-  display: inline;
-  background-color: #dccfbc;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  justify-content: center;
-  width: 100%;
-  margin-bottom: -40px;
-  margin-left: -20px;
-}
-
-.impact-hero h1 {
-  font-size: 2.5rem;
-}
-
-.impact-hero-small-text {
-  flex-wrap: nowrap;
-  font-size: 1.3em;
-  position: relative;
-  align-self: center;
-}
-
-.impact-gallery1 {
-  padding: 20px;
-  background-color: #dccfbc;
-}
-
-.impact-gallery1 h2 {
-  font-size: 2.5rem;
-  color: white;
-}
-
-.impact-gallery2 {
-  margin-top: -20px;
-  padding: 20px;
-  background-color: #dccfbc;
-}
-
-.impact-gallery2 h2 {
-  font-size: 2.5rem;
-  color: white;
-}
-
-.media-grid {
+  margin-top: 100px;
+  padding: 100px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdfdfd;
+}
+
+.impact-left {
+  margin-top: 80px;
+  padding: 24px;
+  width: 40%;
+  gap: 48px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.impact-left-header {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}
+
+.impact-head {
+  padding: 0;
+  margin: 0;
+  color: #d66c38;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.impact-mission {
+  padding: 0;
+  margin: 0;
+  color: #000;
+  font-family: "Source Serif 4";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.impact-mission-text {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  color: #4b4b4b;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.impact-zeffy-btn {
+  display: flex;
+  width: 200px;
+  height: 70px;
+  align-items: center;
   justify-content: center;
-  gap: 20px;
+  border-radius: 8px;
+  background: #d66c38;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+/* Hover state */
+.impact-zeffy-btn:hover {
+  background-color: #c2592e; /* Slightly darker orange */
+  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+.impact-zeffy-btn:active {
+  transform: scale(0.97);
+}
+
+.impact-right {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
+  padding: 0;
+  margin-left: 25%;
+  gap: 44px;
 }
 
 .media-item {
-  background-color: white;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
   padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 300px;
-  text-align: center;
+  width: 280px;
+}
+
+.media-item p {
+  color: #000;
+  font-family: "Source Serif 4";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .media-item img,
@@ -88,38 +127,132 @@
   border-radius: 8px;
 }
 
-.media-item p {
-  font-size: 1rem;
-  color: #666;
-  font-family: "Merriweather", sans-serif;
-  margin-top: 10px;
+@media (max-width: 1480px) {
+
+  .impact-mission {
+    font-size: 2vw;
+  }
+
+  .impact-mission-text {
+    max-width: 20vw;
+  }
+
+  .impact-right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  grid-template-rows: repeat(2, auto);   /* 2 rows */
+  gap: 1vw;
+  margin-top: 50px;
+  padding: 0;
+  margin-left: 0;
+  justify-items: center;
 }
 
-.footer {
-  height: 100%;
-  margin-top: auto;
+  .impact-container {
+    padding: 60px;
+  }
+
+  .media-item p {
+  font-size: 1vw;
+  }
+
+ .media-item {
+  padding: 15px;
+  width: 280px;
+  }
+
+  .media-item img,
+  .media-item video {
+    width: 70%; /* Makes 2 items fit per row on smaller widths */
+  }
 }
 
-@media (max-width: 400px) {
-  .impact-hero h1 {
-    font-size: 1.6rem;
+/* Tablet (≤ 1024px) */
+@media (max-width: 1024px) {
+  .impact-container {
+    flex-direction: column;
+    padding: 60px;
   }
 
-  .impact-hero p {
-    font-size: 1rem;
+  .impact-left {
+    width: 100%;
+    align-items: center;
+    text-align: center;
   }
 
-  .impact-gallery h2 {
-    font-size: 1.5rem;
+  .impact-mission {
+    font-size: 36px;
   }
+
+  .impact-left-header,
+  .impact-mission-text {
+    align-items: center;
+    text-align: center;
+  }
+
+  .impact-mission-text{
+    max-width: 70vw;
+  }
+
+  .impact-right {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .media-item p {
+  color: #000;
+  font-family: "Source Serif 4";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
-@media (max-width: 360px) {
-  .impact-hero h1 {
-    font-size: 1.4rem;
+.media-item img,
+.media-item video {
+  width: 100%;
+}
+
+}
+
+/* Mobile (≤ 768px) */
+@media (max-width: 768px) {
+  .impact-container {
+    padding: 40px 20px;
+    margin-top: 60px;
   }
 
-  .impact-hero p {
-    font-size: 0.9rem;
+  .impact-left {
+    padding: 16px;
+    gap: 32px;
+  }
+
+  .impact-mission {
+    font-size: 28px;
+  }
+
+  .impact-mission-text {
+    font-size: 13px;
+  }
+
+  .impact-zeffy-btn {
+    width: 60%;
+    height: 60px;
+    font-size: 15px;
+  }
+
+  .impact-right {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .media-item {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .media-item p {
+    font-size: 16px;
   }
 }

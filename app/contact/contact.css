@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 .contact-container {
-  font-family: 'Work Sans', sans-serif;
-  background-color: #DCCFBC;
+  font-family: "Work Sans", sans-serif;
+  background-color: #dccfbc;
   text-align: center;
   min-height: 100vh;
   flex-direction: column;
@@ -14,7 +14,14 @@
 }
 
 .allbutFooter {
+  margin-top: 50px;
   flex: 1;
+}
+
+h1 {
+  font-size: 3em;
+  color: white;
+  text-align: center;
 }
 
 h2 {
@@ -22,11 +29,11 @@ h2 {
   font-size: 2em;
   font-weight: 400;
   color: #ffffff;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 h1 h2 {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   color: white;
 }
 
@@ -35,7 +42,7 @@ h1 {
 }
 
 .contact-hero {
-  background-color: #DCCFBC;
+  background-color: #dccfbc;
   color: white;
   padding: 60px 20px;
   text-align: center;
@@ -52,12 +59,12 @@ h1 {
 .contact-form {
   margin-top: -50px;
   padding: 20px;
-  background-color: #DCCFBC;
+  background-color: #dccfbc;
 }
 
 .contact-form h2 {
   color: white;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: 300;
   margin-bottom: 30px;
 }
@@ -66,7 +73,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 label {
@@ -74,16 +81,16 @@ label {
   color: #333;
 }
 
-input, textarea {
+input,
+textarea {
   width: 30%;
   padding: 10px;
   margin: 10px 0;
   border-radius: 8px;
   border: 1px solid #ccc;
   font-size: 1rem;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
-
 
 textarea {
   height: 200px;
@@ -93,7 +100,7 @@ textarea {
 button {
   padding: 10px 20px;
   font-size: 1rem;
-  background-color: #B88F67;
+  background-color: #b88f67;
   color: white;
   border: none;
   border-radius: 5px;
@@ -117,8 +124,8 @@ button:hover {
 }
 
 .social-icons-contact a {
-  font-size: 3rem;
-  color: #B88F67;
+  font-size: 2rem;
+  color: #b88f67;
   text-decoration: none;
   transition: color 0.3s ease, transform 0.3s ease; /* Added transition for hover color */
   margin-bottom: 1em;
@@ -134,7 +141,8 @@ button:hover {
   margin-top: auto;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -153,7 +161,8 @@ html, body {
 /* Responsive Design */
 
 @media (max-width: 480px) {
-  input, textarea {
+  input,
+  textarea {
     width: 60%;
   }
 }

@@ -10,8 +10,6 @@ export default function About() {
     <div className="about-container">
       <title>Hope Through Food</title>
       <div className='allbutFooter'>
-        <Navbar />
-
         {/* Hero Section */}
         <div className="about-hero">
           <h1>
@@ -70,9 +68,6 @@ export default function About() {
             </p>
           </div>
         </div>
-      </div>
-      <div className='footer'>
-        <Footer />
       </div>
     </div>
   );
