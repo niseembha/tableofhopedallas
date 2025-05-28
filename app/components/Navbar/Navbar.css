@@ -121,7 +121,7 @@ html {
 @media (max-width: 500px) {
 
   .navbar {
-    height: 15vw;
+    height: 12vw;
   }
 
   .nav-link {
@@ -130,7 +130,7 @@ html {
 
   .donateButton {
     margin-top: 1.5vw;
-    margin-right: -7vw;
+    margin-right: -4vw;
     width: 10vw;
     height: 4vw;
   }
@@ -145,6 +145,6 @@ html {
   }
 
   .nav-links {
-    margin-left: -8vw;
+    margin-left: -5vw;
   }
 }
