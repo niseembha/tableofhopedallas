@@ -45,7 +45,7 @@ export default function Home() {
 
           {/* Meals Served Counter */}
           <div className="meals-served">
-            Meals Served: <span id="meals-count">65</span>
+            Meals Served: <span id="meals-count">120</span>
           </div>
         </div>
         <div className="bottomButtons">
