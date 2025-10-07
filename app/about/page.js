@@ -24,12 +24,12 @@ export default function About() {
             <div className="founder-card">
               <img src="/images/pfps/atenpfp.png" alt="Aten Biswas" />
               <h3>Aten Biswas</h3>
-              <p>Hey everyone, I'm Aten! I'm a sophomore at Shepton High School and I enjoy playing basketball and golf. I have a deep passion for cooking and helping others, so I started Table of Hope with my friend. We can't wait to see the difference you help us make!</p>
+              <p>Hey everyone, I'm Aten! I'm a junior at Plano West High School and I enjoy playing basketball and golf. I have a deep passion for cooking and helping others, so I started Table of Hope with my friend. We can't wait to see the difference you help us make!</p>
             </div>
             <div className="founder-card">
               <img src="/images/pfps/niseempfp.png" alt="Niseem Bhattacharya"/>
               <h4>Niseem Bhattacharya</h4>
-              <p>Hi, I’m Niseem! I'm a sophomore at Greenhill School and some of my interests are playing video games, coding, and basketball with my friends. My friend and I started this nonprofit because we love cooking and wanted to use that passion to help others!</p>
+              <p>Hi, I’m Niseem! I'm a junior at Greenhill School and some of my interests are playing video games, coding, and basketball with my friends. My friend and I started this nonprofit because we love cooking and wanted to use that passion to help others!</p>
             </div>
           </div>
         </div>
